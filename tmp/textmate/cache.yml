@@ -1,0 +1,22 @@
+--- 
+post: 
+  :columns: 
+  - id
+  - content
+  - title
+  - user_id
+  - created_at
+  - updated_at
+  :associations: 
+  - user
+user: 
+  :columns: 
+  - id
+  - login
+  - email
+  - firstname
+  - lastname
+  - created_at
+  - updated_at
+  :associations: []
+

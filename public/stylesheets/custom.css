@@ -1,0 +1,324 @@
+
+
+/* reset */
+* {
+   margin: 0;
+   padding: 0px;
+}
+
+
+.container {
+  width: auto;
+  height: auto;
+  padding-top: 35px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+body {
+  background: #ffffff;
+  font-family: "Arial", sans-serif;
+}
+
+/*section     */
+
+.title {
+  color: white;
+  padding-left:70px;
+  background:#527F92 url("../images/bg_texture.png") center top;
+  height: 110px;
+}
+
+.title h1 {
+  font-size: 50px;
+  padding-top:65px;
+}
+
+.page {
+  color: white;
+  margin-top: 1em;
+  font-size: 120%;
+  padding: 20px;
+  background:#527F92 url("../images/bg_texture.png") center top;
+}
+
+
+/* Links */
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: white;
+}
+
+
+/* Navigation */
+
+nav {
+  float: right;
+  padding-right: 150px;
+  white-space: nowrap;
+  font-size: 25px;
+  position: relative;
+  top: -5px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+nav ul li a {
+  padding: 0 5px;
+  font-weight: bold;
+}
+
+nav ul li a:visited {
+  color: white;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+
+/*
+
+
+a.signup_button {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+  width: 190px;
+  color: #fff;
+  background: #006400;
+  font-size: 150%;
+  font-weight: bold;
+  padding: 20px;
+}
+
+
+/*
+
+.round {
+  -moz-border-radius:    10px;
+  -webkit-border-radius: 10px;
+  border-radius:         10px;
+}
+
+*/
+
+footer {
+  text-align: center;
+  margin-top: 10px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  background:#527F92 url("../images/bg_texture.png") center top;
+
+}
+
+footer nav {
+  float: none;
+}
+
+
+/* User show page   */
+
+table.profile {
+  width: 100%;
+  margin-bottom: 0;
+}
+
+td.main {
+  width: 70%;
+  padding: 1em;
+}
+
+td.sidebar {
+  width: 30%;
+  padding: 1em;
+  vertical-align: top;
+  background: #ffc;
+}
+
+
+
+/*
+
+
+.profile img.gravatar {
+  border: 1px solid #999;
+  margin-bottom: -15px;
+}
+
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+
+.field_with_errors {
+  margin-top: 10px;
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+.field_with_errors label {
+  color: #fff;
+}
+
+#error_explanation {
+  width: 400px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  background-color: #c00;
+  color: #fff;
+}
+
+#error_explanation p {
+  color: #333;
+  margin-bottom: 0;
+  padding: 5px;
+}
+
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+
+*/
+
+
+ul.users {
+  margin-top: 1em;
+}
+
+.users li {
+  list-style: none;
+}
+
+
+
+/* Blogpost list */
+
+
+div.blogframe {
+
+    border:solid;
+    margin-left:170px;
+    margin-right:170px;
+    padding: 20px;
+    -moz-border-radius:    10px;
+    -webkit-border-radius: 10px;
+    border-radius:         10px;
+    background-color: white;
+    color: #527F92;
+
+}
+
+
+table.blogposts {
+  margin-top: 50px;
+  margin-left: 20px;
+  display: inline;
+}
+
+
+table.blogposts tr td.gravatar {
+  border-top: 1px solid #ccc;
+  vertical-align: top;
+  width: 50px;
+}
+
+table.blogposts tr td.blogpost {
+  border-top: 1px solid #ccc;
+  vertical-align: top;
+  padding-top: 10px;
+  width: 600px;
+}
+
+table.blogposts tr td.blogpost span.timestamp {
+  display: block;
+  font-size: 85%;
+}
+
+.blog_title {
+   font-weight: bold;
+   font-size: 30px;
+   display: block;
+}
+
+.blog_timestamp {
+    font-size:14px;
+    margin-bottom: 15px;
+    color: #666;
+}
+
+.blog_content {
+    color: black;
+    margin-bottom: 20px;
+}
+
+
+/* Category menu */
+
+
+table.categories {
+    border-style: solid;
+    float: right;
+    display: inline;
+    width: 280px;
+    padding: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+    -moz-border-radius:    10px;
+    -webkit-border-radius: 10px;
+    border-radius:         10px;
+
+}
+
+table.categories a {
+    color: #527F92;
+}
+
+
+.categories li {
+	font-weight: bold;
+	font-size: 30px;
+	display: inline;
+	margin-left: 30px;
+	margin-right: 30px;	
+}
+
+.categories li a {
+
+	color: black;	
+}
+
+

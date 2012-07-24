@@ -1,0 +1,34 @@
+
+<div class="title">
+<h1>WELCOME TO DA BLOG</h1>
+</div>
+
+
+<div class="page">
+
+  <div class="blogframe">
+
+
+    <div class="categories" summary="Blogpost categories">
+             <ul><li><%= link_to "All", root_path %></li>
+
+    <% @categories.each do |category| %>
+                <li><%= link_to category.name, category %></li>
+            
+    <% end %>
+      </ul>
+
+    </div>
+
+    <table class="blogposts" summary="User blogposts">
+          <%= render @blogposts %>
+    </table>
+
+    <%= will_paginate @blogposts %>
+
+
+    
+
+  </div>
+
+</div>
